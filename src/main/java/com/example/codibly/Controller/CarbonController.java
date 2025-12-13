@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/carbon")
+@CrossOrigin(origins = "http://localhost:5173")
 public class CarbonController {
 
     private final CarbonIntensityService carbonIntensityService;
