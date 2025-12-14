@@ -10,7 +10,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/carbon")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+        "http://localhost:5173",
+        "https://carbon-front-final.onrender.com"
+})
 public class CarbonController {
 
     private final CarbonIntensityService carbonIntensityService;
