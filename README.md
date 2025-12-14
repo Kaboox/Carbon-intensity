@@ -8,6 +8,7 @@ https://carbon-intensity-z1zs.onrender.com
 
 📡 API Endpoints
 GET /api/carbon/mix - Returns energy generation mix for the last 24h.
+
 GET /api/carbon/optimal-charging?hours=X - Returns the best charging window for a specified duration (1-6h).
 
 🛠️ Tech Stack
